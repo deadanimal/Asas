@@ -7,7 +7,7 @@ This is basic template for any Laravel app that any Piper need to use.
 please ensure that you rm -rf .git and later re set the git by init, add, commit, add remote, and push as usal.
 
 1. composer install
-2. npm install
+2. npm install && npm run dev
 3. cp .env.example .env
 4. php artisan key:generate
 5. setup MySQL for localhost
